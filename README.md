@@ -16,7 +16,7 @@
 
 6. O usuário logado pode acessar gráficos da distribuição de respostas para cada pergunta de seu formulário;
 
-	1. Por exemplo, um gráfico de pizza que mostra a porcentagem total de "Sim" e de "Não", selecionados em uma pergunta do formulário. Cada pergunta do formulário teria um gráfico e, idealmente, cada tipo de pergunta teria um tipo de gráfico mais adequado para si, por exemplo, uma pergunta de texto livro talvez seja melhor representada por um gráfico de barras.
+	1. Por exemplo, um gráfico de pizza que mostra a porcentagem total de "Sim" e de "Não", selecionados em uma pergunta do formulário. Cada pergunta do formulário teria um gráfico e, idealmente, cada tipo de pergunta teria um tipo de gráfico mais adequado para si, por exemplo, uma pergunta de texto livre talvez seja melhor representada por um gráfico de barras.
 
 7. O usuário logado pode definir de forma opcional uma data de encerramento para o formulário na sua criação. Ex.: Formulário aceita respostas até 31/08/2023);
 	1. O formulário atingindo a data limite passaria de `ATIVO` para `ENCERRADO`.
@@ -51,12 +51,12 @@
 
 ### Respondendo o formulário:
 
-1.  Uma **Resposta** consiste em seu **Usuário**, sua **Questão** e seu valor. O conjunto de Respostas do conjunto de **Questões** de um **Formulário** são a resposta deste Formulário.
+1.  Uma **Resposta** consiste em seu **Usuário**, sua **Questão** e seu **Valor**. O conjunto de Respostas do conjunto de **Questões** de um **Formulário** são a resposta deste Formulário.
 
 ![](https://i.ibb.co/kcK9vcK/Captura-de-tela-2023-08-10-161813.png)
 
 2. Antes de uma Resposta ser enviada ela é validada de acordo com o Tipo de Questão e Opções de Resposta, se houver.
-3. As Respostas podem ser posteriormente acessadas através de tabela no Frontend, exportadas como planilha ou exibidas em gráficos.
+3. As Respostas podem ser posteriormente acessadas através de uma tabela no Frontend, exportadas como planilha ou exibidas em gráficos.
 
 ![enter image description here](https://i.ibb.co/FbsjZTM/Captura-de-tela-2023-08-10-161213.png)
 
