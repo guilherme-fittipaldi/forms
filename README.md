@@ -29,9 +29,13 @@
 
 ### Criação de formulário:
 1. Um **Formulário** é composto de uma ou mais **Questões**, cada **Questão** tem um **Tipo de Questão** e pode ter **Opções de Resposta**.
+
 ![a](https://i.ibb.co/3rXMQ7Q/Captura-de-tela-2023-08-10-155403.png)
+
 2. Os Tipos de Questões são pré definidos (novos podem ser cadastrados futuramente) e são exibidos no Frontend para serem arrastados ao Formulário.
+
 ![a](https://i.ibb.co/dK3VT4G/Captura-de-tela-2023-08-10-160024.png)
+
 3. Após arrastar o Tipo de Questão  para o Formulário devem ser cadastradas as Opções de Resposta caso hajam, título, definir se ela é read-only, required e etc.
 2. Todas essas informações serão agrupadas de maneira estruturada em um JSON, enviadas ao Backend e tratadas para serem cadastradas no DB
 
